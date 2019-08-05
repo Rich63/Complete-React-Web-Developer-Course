@@ -1,3 +1,4 @@
+
 const app = {
   title: 'Visability Toggle',
   detail: 'Hey. These are some details you can now see!',

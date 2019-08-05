@@ -1,11 +1,12 @@
 {
   "name": "indecision-app",
   "version": "1.0.0",
+  "description": "from the Complete React Developer Course by Andrew Mead",
   "main": "index.js",
-  "author": "Andrew Mead",
+  "author": "R. Orta",
   "license": "MIT",
   "dependencies": {
-    "babel-preset-env": "1.5.2",
-    "babel-preset-react": "6.24.1"
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
   }
 }
