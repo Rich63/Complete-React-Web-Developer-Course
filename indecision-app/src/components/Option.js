@@ -1,19 +1,17 @@
 import React from 'react'
 
-const Option = (props) => {
-  return (
-    <div>
-      { props.optionText }
-      <button 
-        className="ui icon mini button red"
-        onClick={() => {
-          props.handleDeleteOption(props.optionText);
-        }}
-      >
-      X
-      </button>
-    </div>
-  );
-}
+const Option = (props) => (
+  <div className="ui container">
+    { props.optionText }
+    <button 
+      className="ui button tiny red floated='right'"
+      onClick={() => {
+        props.handleDeleteOption(props.optionText);
+      }}
+    >
+    X
+    </button>
+  </div>
+);
 
 export default Option;
