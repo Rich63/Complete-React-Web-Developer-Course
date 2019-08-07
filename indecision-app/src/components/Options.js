@@ -5,7 +5,6 @@ import Option from "./Option";
 const Options = (props) => (
   <div>
     <button 
-      className="ui button tiny red"
       disabled={ !props.hasOptions }
       onClick={ props.handleDeleteOptions }
     >

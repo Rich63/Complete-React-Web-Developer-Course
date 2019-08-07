@@ -64,7 +64,7 @@ class IndecisionApp extends React.Component {
     const subTitle = "Put your life in the hands of a computer!";
 
     return (
-      <div className="ui text container">
+      <div>
         <Header subTitle={ subTitle } />
         <Action
           hasOptions={ this.state.options.length > 0 }

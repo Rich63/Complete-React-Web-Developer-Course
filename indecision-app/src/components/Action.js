@@ -3,7 +3,6 @@ import React from 'react'
 const Action = (props) => (
   <div>
     <button 
-      className="ui icon button mini green"
       onClick={ props.handlePick }
       disabled={ !props.hasOptions }
     >
