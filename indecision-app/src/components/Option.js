@@ -1,15 +1,15 @@
 import React from 'react'
 
 const Option = (props) => (
-  <div className="ui container">
-    { props.optionText }
-    <button 
-      className="ui button tiny red floated='right'"
+  <div className="option">
+    <p className="option__text">{ props.count }. { props.optionText }</p>
+        <button 
+      className="button button--link"
       onClick={() => {
         props.handleDeleteOption(props.optionText);
       }}
     >
-    X
+    remove
     </button>
   </div>
 );
