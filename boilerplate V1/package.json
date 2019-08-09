@@ -1,0 +1,39 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "from the Complete React Developer Course by Andrew Mead",
+  "main": "index.js",
+  "author": "R. Orta",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.12.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-modal": "^3.9.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^1.0.0",
+    "validator": "^11.1.0",
+    "webpack": "^4.39.1",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.6"
+  }
+}
