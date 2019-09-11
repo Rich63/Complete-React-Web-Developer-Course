@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+/public/dist
+/src/playground/*
+
 # dependencies
 /node_modules
 /.pnp
@@ -10,7 +13,6 @@
 
 # production
 /build
-/public/dist/
 
 # misc
 .DS_Store
@@ -18,6 +20,8 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env.development
+.env.test
 
 npm-debug.log*
 yarn-debug.log*
